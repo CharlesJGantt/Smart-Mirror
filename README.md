@@ -6,7 +6,7 @@ Raspberry powered mirror which can display the news, weather, and time.
 If you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed, clone the repository.
 
 ```
-git clone git@github.com:HackerHouseYT/Smart-Mirror.git
+git clone git@github.com:CharlesJGantt/Smart-Mirror-With-Halloween-Jump-Scare.git
 ```
 
 **Alternatively, you can download a zip file containing the project (green button on the repository page)**
