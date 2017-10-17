@@ -15,7 +15,7 @@ from subprocess import Popen
 
 GPIO.setmode(GPIO.BCM)
 
-movie1 = ("/var/www/html/video.mp4")
+movie1 = ("/home/pi/Smart-Mirror-With-Halloween-Jump-Scare/zombie.mp4")
 
 GPIO.setup(5, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(26, GPIO.OUT)
@@ -32,6 +32,6 @@ while True:
         os.system('killall omxplayer.bin')
         omxc = Popen(['omxplayer', '-b', movie1])
         player = True
-        time.sleep(5)
+        time.sleep(60)
         motionDetected = 0
         GPIO.output(26, GPIO.LOW)
